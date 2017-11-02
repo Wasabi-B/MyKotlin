@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/MyKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/MyKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyKotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyKotlin_main.iml" group="MyKotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyKotlin_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MyKotlin_main.iml" group="MyKotlin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyKotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyKotlin_test.iml" group="MyKotlin" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyKotlin_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MyKotlin_test.iml" group="MyKotlin" />
     </modules>
   </component>
