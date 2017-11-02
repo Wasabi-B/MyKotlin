@@ -3,11 +3,14 @@ package com.easy.kotlin
 import java.lang.Integer.parseInt
 
 fun main(args:Array<String>){
-    println(max1(1,2))
-    cases(2)
-    switch(3)
-    switch2(123)
-    switch3()
+//    println(max1(1,2))
+//    cases(2)
+//    switch(3)
+//    switch2(123)
+//    switch3()
+//    whileTest()
+//    breakTest()
+    continueTest()
 }
 /*--------------------     if...else...      --------------------------------------------*/
 /**
@@ -107,11 +110,47 @@ fun switch3(){
     }
 }
 
-/*---------------------------------- for循环 --123----------------------------------------------------*/
+/*---------------------------------- for循环 ------------------------------------------------------*/
+fun forTest(){
 
+}
 
+/*----------------------------------------  while && do  while  -------------------------------------------------------*/
+fun whileTest(){
+    var x = 20
+    while (x>10){
+        x--
+        print(x)
+    }
 
+    var y = 10
+    do {
+        y = y + 1
+        print(y)
+    }while (y < 20)
 
+}
+
+/*----------------------------------------  break & continue  -------------------------------------------------------*/
+fun breakTest(){
+    for ( i in 1..10){
+        print(i)
+        if (i % 2 == 0){
+            break
+        }//break to here
+    }
+}
+
+fun continueTest(){
+    for(i in 1..10){
+
+        if (i % 2 == 0) {
+            continue
+        }
+        println(i)
+
+    }
+}
 
 
 
